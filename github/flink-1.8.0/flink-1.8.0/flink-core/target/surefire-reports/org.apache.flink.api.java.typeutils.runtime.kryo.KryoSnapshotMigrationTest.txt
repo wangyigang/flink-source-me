@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.flink.api.java.typeutils.runtime.kryo.KryoSnapshotMigrationTest
+-------------------------------------------------------------------------------
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.352 s - in org.apache.flink.api.java.typeutils.runtime.kryo.KryoSnapshotMigrationTest

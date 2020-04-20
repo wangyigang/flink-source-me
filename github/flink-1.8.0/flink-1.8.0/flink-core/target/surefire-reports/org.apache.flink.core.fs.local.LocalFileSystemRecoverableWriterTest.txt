@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.81 s <<< FAILURE! - in org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest
+testCloseWithNoData(org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest)  Time elapsed: 0.215 s  <<< ERROR!
+java.nio.file.FileSystemException: 
+C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit1790605013499639493\mgkczitapcyuavtm\.part-0.inprogress.0ec24115-a41c-4a6b-9ed0-aba48a501f0f -> C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit1790605013499639493\mgkczitapcyuavtm\part-0: 另一个程序正在使用此文件，进程无法访问。
+
+
+testRecoverWithEmptyState(org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest)  Time elapsed: 0.083 s  <<< ERROR!
+java.nio.file.FileSystemException: 
+C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit1865420222291795100\jfxlmyhaszrupdfo\.part-0.inprogress.5e504857-024b-4ecc-84d8-fda70cb05025 -> C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit1865420222291795100\jfxlmyhaszrupdfo\part-0: 另一个程序正在使用此文件，进程无法访问。
+
+
+testRecoverFromIntermWithoutAdditionalState(org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest)  Time elapsed: 0.244 s  <<< ERROR!
+java.nio.file.FileSystemException: 
+C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit8504116495740600238\mtqnfplnpiiyzsvv\.part-0.inprogress.0d89d2ef-0e33-4c8a-b979-246f8b51a4ce -> C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit8504116495740600238\mtqnfplnpiiyzsvv\part-0: 另一个程序正在使用此文件，进程无法访问。
+
+
+testRecoverWithState(org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest)  Time elapsed: 0.029 s  <<< ERROR!
+java.nio.file.FileSystemException: 
+C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit97326934092527830\rlzjyskjnnsccpzi\.part-0.inprogress.e95742cd-2fbc-4d19-9e4e-5f53214f3d3f -> C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit97326934092527830\rlzjyskjnnsccpzi\part-0: 另一个程序正在使用此文件，进程无法访问。
+
+
+testRecoverAfterMultiplePersistsState(org.apache.flink.core.fs.local.LocalFileSystemRecoverableWriterTest)  Time elapsed: 0.025 s  <<< ERROR!
+java.nio.file.FileSystemException: 
+C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit6607362759943630289\fxyuqgthvemajncz\.part-0.inprogress.e2d2c9cc-0e1b-4531-bd08-a2fec76a663f -> C:\Users\wangyg\AppData\Local\Temp\junit5115511508006719428\junit6607362759943630289\fxyuqgthvemajncz\part-0: 另一个程序正在使用此文件，进程无法访问。
+
+

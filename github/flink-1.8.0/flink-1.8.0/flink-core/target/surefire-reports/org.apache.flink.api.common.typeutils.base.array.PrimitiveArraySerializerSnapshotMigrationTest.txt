@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.flink.api.common.typeutils.base.array.PrimitiveArraySerializerSnapshotMigrationTest
+-------------------------------------------------------------------------------
+Tests run: 108, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.458 s - in org.apache.flink.api.common.typeutils.base.array.PrimitiveArraySerializerSnapshotMigrationTest
